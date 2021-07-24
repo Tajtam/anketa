@@ -1,0 +1,66 @@
+
+.header {
+}
+.greeting {
+    max-width: 65%;
+    margin-left: 50px;
+
+}
+.fotoPears {
+    max-width: 10%;
+
+    border: 1px solid chartreuse;
+    position: relative;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Roboto Slab', serif;
+    line-height: 2.7em;
+    background: #fdf9f2;
+    z-index: 1;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+table {
+    text-align: center;
+    vertical-align: center;
+    border: 2px solid;
+    border-spacing: 0; /* убирает промежутки между ячейками*/
+    border-collapse: collapse; /* убирает склеивание соседних страниц ячеек*/
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+th {
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+}
+input {
+    border: 0 ;
+    background: #fdf9f2;
+
+
+
+}
+input:hover {
+    border-bottom: 1px dotted;
+}
+td input {
+    width: 90%;
+}
+select, option {
+    background: #fdf9f2;
+}
+body {
+    z-index: 0;
+    background: #846853;
+}
+.listPers {
+    margin-left: 20px;
+    margin-right: 60px;
+}
